@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+.main_container {width: 1200px; margin: auto;}
+.container {
+    width: 50%; float: left; padding: 0 10px 20px 0; margin: 40px 0 0 340px; background-color: rgb(23, 23, 89);
+}
+.container h1 {
+    height: 40px; text-align: center; color: #fff; font-family: 'Roboto Mono', monospace;
+    margin: 0 0 0 20px;
+}
+
+.url {
+    width: 95%; float: left; padding: 10px 0px; margin: 20px 0 0 15px; border: 3px solid rgb(227, 101, 55);
+}
+.url h2 {
+    text-align: center;
+    color: aquamarine;
+
+    font-family: 'Caveat', cursive;
+}
+
+#longurl {
+    margin: 0 0 0 130px; padding-left: 5px; height: 20px; width: 300px; border: 2px solid black; border-radius: 6px;
+
+}
+#shorturl {margin: 10px 0 0 130px; padding-left: 5px; height: 20px; width: 300px; border: 2px solid black; border-radius: 6px;}
+
+
+.buttons {width: 50%; padding: 10px 5px; float: left; margin: 10px 0 0 138px; border: 2px solid grey;}
+
+#shorten {
+    color: rgb(252, 246, 246); background-color: rgb(23, 23, 89); margin: 0 0 0 6px;
+}
+#shorten:hover {background-color: red;}
+
+#copy {
+    color: rgb(252, 246, 246); background-color: rgb(23, 23, 89); margin: 0 0 0 6px;
+}
+
+#copy:hover {
+    background-color: green;
+}
+
+.para {
+    width: 100%; float: left;
+}
+
+
+
+.para p {
+    color: rgb(80, 241, 80); text-align: center; width: 70%; margin-left: 85px; font-weight: bold;
+    font-family: Candara;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .main_container {
+        width: 100%;
+        float: left;
+    }
+    .container {
+        width: 100%;
+        float: left;
+        margin: 0 0;
+    }
+    #longurl{
+
+        margin:0 0 0 20px;
+        
+    }
+
+    #shorturl{
+
+        margin:0 0 0 20px;
+        
+    }
+
+    .url {
+        width: 95%;
+        float: left;
+    }
+
+    .buttons {
+        width: 85%;
+        float: left;
+        margin: 18px 0 18px 20px;
+    }
+
+    .para {
+        width: 100%;
+        float: left;
+        
+    }
+    .para p {
+        margin: 10px 0 0 50px;
+    }
+}
+
+
